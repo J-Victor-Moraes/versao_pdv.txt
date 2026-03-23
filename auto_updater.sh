@@ -5,7 +5,7 @@
 # ==========================================================
 
 # 1. Link direto (RAW) para o seu arquivo de versão no Git
-URL_CHECK="https://SEU_GIT_AQUI/raw/main/versao_pdv.txt"
+URL_CHECK="https://github.com/J-Victor-Moraes/versao_pdv.txt/blob/main/versao_pdv.txt"
 
 # 2. Busca as informações silenciosamente no fundo
 REMOTE_INFO=$(curl -s "$URL_CHECK")
